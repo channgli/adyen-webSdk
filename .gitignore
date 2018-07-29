@@ -1,0 +1,11 @@
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.project
+.classpath
+.loadpath
+target/

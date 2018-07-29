@@ -1,0 +1,46 @@
+/* Add your custom CSS styling here */
+
+/* Page styling */
+.content {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.explanation {
+    margin: 20px auto 0;
+    position: relative;
+    width: 60%;
+}
+
+.explanation.hidden {
+    display: none;
+}
+
+.checkout-container {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.checkout {
+    margin: 0 auto;
+    position: relative;
+    width: 60%;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+}
+
+@media (max-width: 520px) {
+    .explanation {
+        width: 100%;
+    }
+
+    .checkout {
+        width: 100%;
+    }
+}
